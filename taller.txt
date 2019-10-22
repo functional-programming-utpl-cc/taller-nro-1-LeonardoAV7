@@ -1,0 +1,15 @@
+
+Pregunta 1:
+countries.filter(_.startsWith == "C")
+
+pregunta 2:
+countries.filter(_.contains("E"))
+
+pregunta 3:
+countries.filter(_.startsWith("E") || _.contains("I"))
+
+pregunta 4:
+countries.filter(_.length > 5)
+
+pregunta 5:
+numbers.filter(x => (1 until x).toList.filter(x%_ ==0).sum > x)
